@@ -1,0 +1,29 @@
+.container {
+  padding: 10px;
+  border: 2px;
+  max-width: 500px;
+  max-height: 500px;
+  font-family: "Sans-Serif";
+}
+
+h1 {
+  font-size: 30px;
+  padding: 12px;
+  display: block;
+  text-align: left;
+  margin: 0 auto;
+  font-family: Georgia;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.search {
+  padding: 4px;
+}
+
+.card-text {
+  padding: 16px;
+}
