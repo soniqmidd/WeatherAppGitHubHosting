@@ -27,3 +27,7 @@ h2 {
 .card-text {
   padding: 16px;
 }
+
+p {
+  display: block;
+}
