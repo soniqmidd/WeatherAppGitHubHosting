@@ -48,9 +48,17 @@ date.innerHTML = formatDate(currentTime);
 function showTemperature(response) {
   let cityName = document.querySelector("#city");
   cityName.innerHTML = response.data.name;
+
   let temp = document.querySelector("#temperature");
   let temperature = Math.round(response.data.main.temp);
   temp.innerHTML = `${temperature}°F`;
+
+  let humidity = document.querySelector("#humidity");
+  humidity.innerHTML = Math.round(response.data.main.humidity);
+
+  let wind = document.querySelector("#windSpeed");
+  let windSpeed = Math.round(response.data.wind.speed);
+  wind.innerHTML = `${windSpeed} mph`;
 }
 
 function retrievePosition(position) {
